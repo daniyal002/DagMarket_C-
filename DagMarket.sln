@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DagMarket", "DagMarket\DagMarket.csproj", "{7C60F264-BE80-4475-BB48-505F2D592D55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C60F264-BE80-4475-BB48-505F2D592D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C60F264-BE80-4475-BB48-505F2D592D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C60F264-BE80-4475-BB48-505F2D592D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C60F264-BE80-4475-BB48-505F2D592D55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8CD6CB0-3733-40EA-9256-336FD692B0DE}
+	EndGlobalSection
+EndGlobal
