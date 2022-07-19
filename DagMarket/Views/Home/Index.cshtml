@@ -2,7 +2,100 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+   
+
+
+
+    <section id="main-screen" class="d-flex align-items-center justify-content-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-12 col-lg-12 col-sm-12">
+            <h1>DагМаркет</h1>
+            <p>Здесь вы найдете все что искали</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xxl-12 col-lg-8 text-center">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+            <button class="btn btn-success" type="submit">Поиск</button>
+          </form>
+        </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="main-category" class="d-flex align-items-center justify-content-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="about-category col-xl-6 col-md-12 order-2 order-lg-1 ">
+            <h2>О DагМаркет</h2>
+            <p>На сайте DагМаркет публикуется товары, а именно продукты питания, от крупных магазинов или поставщиков.<br/> Каждый человек может найти нужный ему товар на нашем сайте. Для этого потребуется ввести в поисковой строке наименование товара. Или перейти в категории и там по категориям найти необходимый товар.</p>
+            <a href="#" class="btn btn-outline-success">Категории</a>
+          </div>
+          <div class="img-category  col-xl-6 col-md-12 order-1 order-lg-2 " >
+            <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/image/slide2.jpg" alt=""  class="img-fluid"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="best-product" class="d-flex align-items-center justify-content-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h2 class="text-center">
+            Наиболее просматримаемые продукты
+          </h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-3 col-md-6 col-sm-12 jus">
+            <div class="card" style="width: 18rem;">
+              <img src="~/image/slide1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>  
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <img src="~/image/slide1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>  
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <img src="~/image/slide1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>  
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <img src="~/image/slide1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+  
