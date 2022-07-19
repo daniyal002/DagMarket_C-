@@ -69,3 +69,34 @@
     #best-product h2 {
         padding-bottom: 30px;
     }
+    #category{
+         padding:100px 0;
+    }
+    #category h2{
+        padding-bottom:30px;
+    }
+    #category .card{
+        margin-top:30px;
+    }
+    #category a{
+        text-decoration:none;
+        color: black;
+    }
+    #aboutUs{
+        padding:100px 0;
+    }
+
+    .aboutUs-card {
+    text-align: center;
+    }
+
+    .aboutUs-text {
+    background-color: #66cf68;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .aboutUs-text p {
+            color:#fff;
+            
+     }
